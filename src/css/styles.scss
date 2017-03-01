@@ -1,0 +1,37 @@
+$primary-color: "#6a78b3";
+$primary-color-dark: "#586eca";
+$primary-color-light: "#97a8ed";
+$light-white-color: "#f7f7f7";
+
+.header-text {
+  padding: 13px 0;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+
+/* */
+.navbar-custom {
+  background-color: $primary-color;
+  border-color: $primary-color-dark;
+  color: $light-white-color;
+}
+
+
+
+/* */
+.list-group {
+  padding-top: 20px;
+}
+
+.list-group .list-group-item {
+  padding: 20px;
+  font-size: 1.4em;
+  background-color: transparent;
+  transition: .4s all ease-in-out;
+}
+
+.list-group .list-group-item:hover {
+  background-color: #F7F7F9;
+  cursor: pointer;
+}

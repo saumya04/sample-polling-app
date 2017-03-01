@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>{{ question }}</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+
+      <ul class="list-group">
+        <template ngFor let-option [ngForOf]="options" let-i="index">
+          <li class="list-group-item">{{ option }}</li>
+        </template>
+      </ul>
+
+    </div>
+  </div>
+</div>
